@@ -1,25 +1,43 @@
-import { createContext, type ReactNode } from 'react'
+import { createContext, useState, type ReactNode } from 'react'
 
-export interface FilterContextValue {
-  searchQuery: string
-  setSearchQuery: (query: string) => void
+type FilterContextValue = {
+  searchTerm: string
   selectedCategory: string
+  currentPage: number
+  setSearchTerm: (term: string) => void
   setSelectedCategory: (category: string) => void
+  setCurrentPage: (page: number) => void
 }
 
-export const FilterContext = createContext<FilterContextValue | undefined>(undefined)
+export const FilterContext = createContext<FilterContextValue | null>(null)
 
-interface FilterProviderProps {
-  children: ReactNode
-}
+export function FilterProvider({ children }: { children: ReactNode }) {
+  const [searchTerm, setSearchTermState] = useState('')
+  const [selectedCategory, setSelectedCategoryState] = useState('')
+  const [currentPage, setCurrentPage] = useState(1)
 
-export const FilterProvider = ({ children }: FilterProviderProps) => {
-  const value: FilterContextValue = {
-    searchQuery: '',
-    setSearchQuery: () => {},
-    selectedCategory: '',
-    setSelectedCategory: () => {},
+  function setSearchTerm(term: string) {
+    setSearchTermState(term)
+    setCurrentPage(1)
   }
 
-  return <FilterContext.Provider value={value}>{children}</FilterContext.Provider>
+  function setSelectedCategory(category: string) {
+    setSelectedCategoryState(category)
+    setCurrentPage(1)
+  }
+
+  return (
+    <FilterContext.Provider
+      value={{
+        searchTerm,
+        selectedCategory,
+        currentPage,
+        setSearchTerm,
+        setSelectedCategory,
+        setCurrentPage,
+      }}
+    >
+      {children}
+    </FilterContext.Provider>
+  )
 }

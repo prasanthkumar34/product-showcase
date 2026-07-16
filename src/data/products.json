@@ -1,1 +1,1802 @@
-[]
+[
+  {
+    "id": 1,
+    "name": "Aurora Wireless Earbuds",
+    "category": "Electronics",
+    "price": 66,
+    "image": "https://picsum.photos/seed/product-1/600/600",
+    "shortDescription": "Compact true-wireless earbuds with a charging case that lasts through a workweek.",
+    "longDescription": "Aurora buds use a dual-mic setup that cuts wind noise on calls. The case tops up both sides three times before you need a wall outlet. Pairing is one-tap on most phones.",
+    "specs": {
+      "Battery Life": "8 hours",
+      "Driver Size": "10mm",
+      "Weight": "52g (with case)",
+      "Connectivity": "Bluetooth 5.3",
+      "Water Resistance": "IPX4"
+    },
+    "rating": 4.6,
+    "stock": 18
+  },
+  {
+    "id": 2,
+    "name": "BrewPath Drip Coffee Maker",
+    "category": "Home Appliances",
+    "price": 113,
+    "image": "https://picsum.photos/seed/product-2/600/600",
+    "shortDescription": "Programmable drip machine with a thermal carafe that keeps coffee hot without a burner.",
+    "longDescription": "BrewPath starts on a timer so a pot is ready when you are. The thermal carafe avoids that scorched taste from a hot plate. Filters are standard basket size.",
+    "specs": {
+      "Capacity": "10 cups",
+      "Carafe": "Stainless thermal",
+      "Timer": "24-hour",
+      "Power": "900W",
+      "Keep Warm": "Thermal (no plate)"
+    },
+    "rating": 4.1,
+    "stock": 31
+  },
+  {
+    "id": 3,
+    "name": "Northline Merino Crew",
+    "category": "Fashion",
+    "price": 88,
+    "image": "https://picsum.photos/seed/product-3/600/600",
+    "shortDescription": "Fine-gauge merino crewneck that layers under jackets without bulk.",
+    "longDescription": "Northline regulates temperature better than cotton on travel days. The knit resists odor after a couple of wears. Fit is straight through the body with a clean crew collar.",
+    "specs": {
+      "Material": "100% merino",
+      "Weight": "180 gsm",
+      "Fit": "Regular",
+      "Care": "Machine wash cold",
+      "Origin": "Portugal"
+    },
+    "rating": 3.6,
+    "stock": 44
+  },
+  {
+    "id": 4,
+    "name": "GripForge Adjustable Dumbbells",
+    "category": "Sports & Fitness",
+    "price": 317,
+    "image": "https://picsum.photos/seed/product-4/600/600",
+    "shortDescription": "Pair of adjustable dumbbells that replace a full rack up to 50 lb each.",
+    "longDescription": "GripForge dials weight in 5 lb steps so you are not swapping plates mid-set. The handle stays locked once selected. Footprint fits under a bench.",
+    "specs": {
+      "Weight Range": "5-50 lb each",
+      "Increments": "5 lb",
+      "Lock": "Dial selector",
+      "Footprint": "16x8 in",
+      "Includes": "Pair"
+    },
+    "rating": 3.1,
+    "stock": 57
+  },
+  {
+    "id": 5,
+    "name": "Field Notes Memo Books (3pk)",
+    "category": "Books & Stationery",
+    "price": 12,
+    "image": "https://picsum.photos/seed/product-5/600/600",
+    "shortDescription": "Pocket memo books with graph paper for quick sketches and lists.",
+    "longDescription": "Field Notes fit a back pocket and take ink without heavy bleed-through. Covers survive bag abuse. Three-pack means one in the car, one on the desk, one in rotation.",
+    "specs": {
+      "Pages": "48 each",
+      "Paper": "Graph",
+      "Size": "3.5x5.5 in",
+      "Pack": "3",
+      "Binding": "Staple"
+    },
+    "rating": 4.7,
+    "stock": 70
+  },
+  {
+    "id": 6,
+    "name": "BrickForge Starter Build Set",
+    "category": "Toys & Games",
+    "price": 57,
+    "image": "https://picsum.photos/seed/product-6/600/600",
+    "shortDescription": "500-piece building set with gears and axles for moving models.",
+    "longDescription": "BrickForge pieces click with common brick systems kids already own. Instructions cover three builds, then leave room to invent. Sorted bags cut the floor-sorting phase.",
+    "specs": {
+      "Pieces": "500",
+      "Ages": "8+",
+      "Builds": "3 models",
+      "Compatibility": "Standard brick",
+      "Includes": "Gears + axles"
+    },
+    "rating": 4.2,
+    "stock": 83
+  },
+  {
+    "id": 7,
+    "name": "Nimbus 14 Laptop",
+    "category": "Electronics",
+    "price": 818,
+    "image": "https://picsum.photos/seed/product-7/600/600",
+    "shortDescription": "A 14-inch everyday laptop built for writing, browsing, and light creative work.",
+    "longDescription": "Nimbus 14 stays cool under video calls and spreadsheets. The keyboard has decent travel, and the trackpad is wide enough for gestures. Battery usually covers a full day of mixed use.",
+    "specs": {
+      "Display": "14-inch IPS",
+      "Storage": "512GB SSD",
+      "RAM": "16GB",
+      "Weight": "1.4kg",
+      "Battery Life": "11 hours"
+    },
+    "rating": 3.7,
+    "stock": 96
+  },
+  {
+    "id": 8,
+    "name": "SpinWave Compact Washer",
+    "category": "Home Appliances",
+    "price": 535,
+    "image": "https://picsum.photos/seed/product-8/600/600",
+    "shortDescription": "Apartment-friendly washer that handles small loads without a full laundry room.",
+    "longDescription": "SpinWave fits in closets and under counters where full machines will not. Cycles are short enough for gym clothes between washes. Noise stays reasonable for shared walls.",
+    "specs": {
+      "Capacity": "1.6 cu ft",
+      "Spin": "1200 RPM",
+      "Cycles": "8",
+      "Water": "Cold/Hot inlet",
+      "Dimensions": "24x24x33 in"
+    },
+    "rating": 3.2,
+    "stock": 13
+  },
+  {
+    "id": 9,
+    "name": "Harbor Canvas Tote",
+    "category": "Fashion",
+    "price": 77,
+    "image": "https://picsum.photos/seed/product-9/600/600",
+    "shortDescription": "Structured canvas tote with a zip top and a padded laptop sleeve.",
+    "longDescription": "Harbor carries a 15-inch laptop and a day of errands without collapsing. The base holds shape when you set it down. Interior pocket keeps keys from sinking to the bottom.",
+    "specs": {
+      "Material": "12oz canvas",
+      "Laptop": "15-inch sleeve",
+      "Closure": "Zip top",
+      "Dimensions": "16x13x5 in",
+      "Pockets": "3 interior"
+    },
+    "rating": 4.8,
+    "stock": 26
+  },
+  {
+    "id": 10,
+    "name": "PaceBand Heart Rate Strap",
+    "category": "Sports & Fitness",
+    "price": 64,
+    "image": "https://picsum.photos/seed/product-10/600/600",
+    "shortDescription": "Chest strap that feeds accurate heart rate to watches and bikes.",
+    "longDescription": "PaceBand beats wrist optical sensors on intervals. Battery lasts through a season of training. Soft strap does not chew into skin after an hour.",
+    "specs": {
+      "Battery": "Replaceable CR2032",
+      "Connectivity": "ANT+ / Bluetooth",
+      "Washable": "Strap only",
+      "Fit": "Adjustable",
+      "Waterproof": "Swim OK"
+    },
+    "rating": 4.3,
+    "stock": 39
+  },
+  {
+    "id": 11,
+    "name": "Inkwell Fountain Pen",
+    "category": "Books & Stationery",
+    "price": 35,
+    "image": "https://picsum.photos/seed/product-11/600/600",
+    "shortDescription": "Entry fountain pen with a smooth fine nib and a converter included.",
+    "longDescription": "Inkwell writes without the scratchiness cheaper pens start with. Converter means bottled ink instead of only cartridges. Cap posts securely while you write.",
+    "specs": {
+      "Nib": "Fine steel",
+      "Fill": "Cartridge/converter",
+      "Body": "Resin",
+      "Includes": "Converter",
+      "Color": "Matte black"
+    },
+    "rating": 3.8,
+    "stock": 52
+  },
+  {
+    "id": 12,
+    "name": "QuestTrail Board Game",
+    "category": "Toys & Games",
+    "price": 43,
+    "image": "https://picsum.photos/seed/product-12/600/600",
+    "shortDescription": "Cooperative board game where players clear a trail before weather closes in.",
+    "longDescription": "QuestTrail plays in about 45 minutes and scales from two to four players. Rules teach in the first round instead of a booklet lecture. Components are sturdy cardboard, not flimsy punchboard.",
+    "specs": {
+      "Players": "2-4",
+      "Time": "45 min",
+      "Ages": "10+",
+      "Type": "Cooperative",
+      "Components": "Board + cards"
+    },
+    "rating": 3.3,
+    "stock": 65
+  },
+  {
+    "id": 13,
+    "name": "PulseFit Smartwatch",
+    "category": "Electronics",
+    "price": 137,
+    "image": "https://picsum.photos/seed/product-13/600/600",
+    "shortDescription": "A slim smartwatch that tracks workouts, sleep, and heart rate without looking bulky.",
+    "longDescription": "PulseFit syncs with your phone and nudges you when you have been sitting too long. Swim mode locks the screen so taps do not mess up your set. Watch faces are plain and readable outdoors.",
+    "specs": {
+      "Display": "1.4-inch AMOLED",
+      "Battery Life": "5 days",
+      "Sensors": "HR, SpO2, GPS",
+      "Water Resistance": "5 ATM",
+      "Compatibility": "iOS & Android"
+    },
+    "rating": 4.9,
+    "stock": 78
+  },
+  {
+    "id": 14,
+    "name": "AirClear Tower Purifier",
+    "category": "Home Appliances",
+    "price": 174,
+    "image": "https://picsum.photos/seed/product-14/600/600",
+    "shortDescription": "Quiet tower purifier with a HEPA filter sized for bedrooms and offices.",
+    "longDescription": "AirClear drops dust and pet dander overnight without sounding like a jet. The filter light is based on hours used, not vibes. Night mode dims everything.",
+    "specs": {
+      "Coverage": "400 sq ft",
+      "Filter": "True HEPA H13",
+      "Noise": "24-52 dB",
+      "CADR": "240",
+      "Power": "45W"
+    },
+    "rating": 4.4,
+    "stock": 91
+  },
+  {
+    "id": 15,
+    "name": "RidgeWalk Chukka Boots",
+    "category": "Fashion",
+    "price": 131,
+    "image": "https://picsum.photos/seed/product-15/600/600",
+    "shortDescription": "Leather chukkas with a grippy outsole for city sidewalks and light trails.",
+    "longDescription": "RidgeWalk breaks in over a week instead of fighting your feet for a month. The midsole cushions all-day wear. Leather ages with scuffs that look intentional.",
+    "specs": {
+      "Upper": "Full-grain leather",
+      "Sole": "Rubber lug",
+      "Lining": "Leather",
+      "Sizes": "7-13 US",
+      "Construction": "Cemented"
+    },
+    "rating": 3.9,
+    "stock": 8
+  },
+  {
+    "id": 16,
+    "name": "MatForge Travel Yoga Mat",
+    "category": "Sports & Fitness",
+    "price": 82,
+    "image": "https://picsum.photos/seed/product-16/600/600",
+    "shortDescription": "Foldable yoga mat with enough grip for hot rooms and travel packs.",
+    "longDescription": "MatForge folds instead of rolling so it fits suitcase corners. Texture holds in sweat without feeling sticky cold. Alignment marks are subtle.",
+    "specs": {
+      "Thickness": "4mm",
+      "Material": "PU + natural rubber",
+      "Fold": "Accordion",
+      "Weight": "1.1kg",
+      "Size": "68x24 in"
+    },
+    "rating": 3.4,
+    "stock": 21
+  },
+  {
+    "id": 17,
+    "name": "Atlas Hardcover Notebook A5",
+    "category": "Books & Stationery",
+    "price": 21,
+    "image": "https://picsum.photos/seed/product-17/600/600",
+    "shortDescription": "Lay-flat A5 notebook with numbered pages and a contents index.",
+    "longDescription": "Atlas opens flat so you are not fighting the spine. Paper handles fountain pen ink with minimal ghosting. Elastic band keeps tickets shoved inside.",
+    "specs": {
+      "Size": "A5",
+      "Pages": "192",
+      "Paper": "100 gsm",
+      "Binding": "Sewn hardcover",
+      "Extras": "Index + pocket"
+    },
+    "rating": 5,
+    "stock": 34
+  },
+  {
+    "id": 18,
+    "name": "ZoomRacer Remote Car",
+    "category": "Toys & Games",
+    "price": 51,
+    "image": "https://picsum.photos/seed/product-18/600/600",
+    "shortDescription": "All-terrain remote car with a rechargeable battery and spare shell.",
+    "longDescription": "ZoomRacer handles driveway gravel without flipping constantly. Range is honest for backyard use. Spare shell means the first crash is not the end.",
+    "specs": {
+      "Scale": "1:18",
+      "Battery": "Rechargeable",
+      "Range": "50m",
+      "Runtime": "25 min",
+      "Ages": "6+"
+    },
+    "rating": 4.5,
+    "stock": 47
+  },
+  {
+    "id": 19,
+    "name": "ClearFrame 4K Monitor",
+    "category": "Electronics",
+    "price": 360,
+    "image": "https://picsum.photos/seed/product-19/600/600",
+    "shortDescription": "27-inch 4K monitor with USB-C that powers a laptop while carrying video.",
+    "longDescription": "ClearFrame is meant for desk setups where one cable is enough. Colors are accurate enough for photo edits, and the stand tilts and raises without tools. Speakers are fine for calls, not for music.",
+    "specs": {
+      "Resolution": "3840x2160",
+      "Size": "27-inch",
+      "Refresh Rate": "60Hz",
+      "Ports": "HDMI, DP, USB-C",
+      "Panel Type": "IPS"
+    },
+    "rating": 4,
+    "stock": 60
+  },
+  {
+    "id": 20,
+    "name": "HeatNest Ceramic Heater",
+    "category": "Home Appliances",
+    "price": 75,
+    "image": "https://picsum.photos/seed/product-20/600/600",
+    "shortDescription": "Oscillating ceramic heater with tip-over shutoff for small rooms.",
+    "longDescription": "HeatNest warms a home office faster than waiting for central heat. Two heat levels plus fan-only cover most winter days. The handle makes it easy to move between rooms.",
+    "specs": {
+      "Power": "1500W",
+      "Modes": "2 heat + fan",
+      "Safety": "Tip-over + overheat",
+      "Coverage": "200 sq ft",
+      "Oscillation": "70 degrees"
+    },
+    "rating": 3.5,
+    "stock": 73
+  },
+  {
+    "id": 21,
+    "name": "SoftGrid Everyday Hoodie",
+    "category": "Fashion",
+    "price": 74,
+    "image": "https://picsum.photos/seed/product-21/600/600",
+    "shortDescription": "Midweight hoodie with a brushed interior and reinforced cuffs.",
+    "longDescription": "SoftGrid works as an outer layer on cool mornings and under a shell when it rains. The hood stays up in light wind. Kangaroo pocket is deep enough for a phone and gloves.",
+    "specs": {
+      "Material": "80% cotton / 20% poly",
+      "Weight": "320 gsm",
+      "Fit": "Relaxed",
+      "Pockets": "Kangaroo",
+      "Care": "Machine wash"
+    },
+    "rating": 3,
+    "stock": 86
+  },
+  {
+    "id": 22,
+    "name": "JumpLine Speed Rope",
+    "category": "Sports & Fitness",
+    "price": 32,
+    "image": "https://picsum.photos/seed/product-22/600/600",
+    "shortDescription": "Adjustable speed rope with coated cable for gym floors.",
+    "longDescription": "JumpLine spins fast enough for double-unders without tangling every third skip. Handles are lightly textured. Cable length trims with a hex key.",
+    "specs": {
+      "Cable": "Coated steel",
+      "Handles": "Aluminum",
+      "Length": "Adjustable to 10 ft",
+      "Bearings": "Ball bearing",
+      "Weight": "180g"
+    },
+    "rating": 4.6,
+    "stock": 99
+  },
+  {
+    "id": 23,
+    "name": "DeskGrid Planner Undated",
+    "category": "Books & Stationery",
+    "price": 28,
+    "image": "https://picsum.photos/seed/product-23/600/600",
+    "shortDescription": "Undated weekly planner so a missed week does not waste pages.",
+    "longDescription": "DeskGrid gives a week on two pages with a notes column that is actually usable. Thick cover stands up on a desk. Stickers are not included — on purpose.",
+    "specs": {
+      "Layout": "Weekly undated",
+      "Size": "B5",
+      "Pages": "120",
+      "Paper": "90 gsm",
+      "Binding": "Lay-flat"
+    },
+    "rating": 4.1,
+    "stock": 16
+  },
+  {
+    "id": 24,
+    "name": "PuzzleCoast 1000pc Map",
+    "category": "Toys & Games",
+    "price": 19,
+    "image": "https://picsum.photos/seed/product-24/600/600",
+    "shortDescription": "1000-piece coastal map puzzle with a poster reference sheet.",
+    "longDescription": "PuzzleCoast pieces have a tight fit without forcing. Color regions help when you are stuck in the ocean blues. Poster saves the box art from being destroyed.",
+    "specs": {
+      "Pieces": "1000",
+      "Size": "27x20 in finished",
+      "Material": "Board",
+      "Reference": "Poster",
+      "Ages": "12+"
+    },
+    "rating": 3.6,
+    "stock": 29
+  },
+  {
+    "id": 25,
+    "name": "Vault Portable SSD 1TB",
+    "category": "Electronics",
+    "price": 148,
+    "image": "https://picsum.photos/seed/product-25/600/600",
+    "shortDescription": "Pocket-sized 1TB SSD with hardware encryption for travel backups.",
+    "longDescription": "Vault connects over USB-C and sustains speeds that make large video dumps tolerable. The metal shell shrugs off backpack abuse. A PIN app locks the drive if it goes missing.",
+    "specs": {
+      "Capacity": "1TB",
+      "Interface": "USB 3.2 Gen 2",
+      "Read Speed": "1050 MB/s",
+      "Encryption": "AES-256",
+      "Weight": "58g"
+    },
+    "rating": 3.1,
+    "stock": 42
+  },
+  {
+    "id": 26,
+    "name": "SteamLift Garment Steamer",
+    "category": "Home Appliances",
+    "price": 52,
+    "image": "https://picsum.photos/seed/product-26/600/600",
+    "shortDescription": "Handheld steamer that pulls wrinkles from shirts without a full ironing board.",
+    "longDescription": "SteamLift heats in under a minute and works on hanging clothes. The water tank is large enough for a few shirts before a refill. Auto shutoff kicks in if you leave it idle.",
+    "specs": {
+      "Heat-up": "40 seconds",
+      "Tank": "300ml",
+      "Cord": "8 ft",
+      "Power": "1500W",
+      "Auto Off": "8 minutes"
+    },
+    "rating": 4.7,
+    "stock": 55
+  },
+  {
+    "id": 27,
+    "name": "LineForm Slim Chinos",
+    "category": "Fashion",
+    "price": 89,
+    "image": "https://picsum.photos/seed/product-27/600/600",
+    "shortDescription": "Stretch chinos that hold a crease through a full workday.",
+    "longDescription": "LineForm uses a bit of elastane so sitting and stairs do not bag out the knees. Colorways stay office-safe. The rise sits at the natural waist without feeling dated.",
+    "specs": {
+      "Material": "97% cotton / 3% elastane",
+      "Fit": "Slim",
+      "Rise": "Mid",
+      "Pockets": "5",
+      "Care": "Machine wash"
+    },
+    "rating": 4.2,
+    "stock": 68
+  },
+  {
+    "id": 28,
+    "name": "HydraSoft Insulated Bottle 32oz",
+    "category": "Sports & Fitness",
+    "price": 39,
+    "image": "https://picsum.photos/seed/product-28/600/600",
+    "shortDescription": "Insulated bottle that keeps water cold through long trail days.",
+    "longDescription": "HydraSoft fits car cup holders and most backpack side pockets. Straw and chug lids both come in the box. Powder coat hides scratches.",
+    "specs": {
+      "Capacity": "32oz",
+      "Insulation": "24h cold",
+      "Lid": "Straw + chug",
+      "Material": "Stainless 18/8",
+      "BPA": "Free"
+    },
+    "rating": 3.7,
+    "stock": 81
+  },
+  {
+    "id": 29,
+    "name": "TypeCase Novel: Harbor Lights",
+    "category": "Books & Stationery",
+    "price": 31,
+    "image": "https://picsum.photos/seed/product-29/600/600",
+    "shortDescription": "A coastal mystery about a radio operator who hears a distress call that should not exist.",
+    "longDescription": "Harbor Lights moves between a small-town marina and old shipping records. The pacing stays tight without cheap twists every chapter. Hardcover edition includes a map endpaper.",
+    "specs": {
+      "Format": "Hardcover",
+      "Pages": "342",
+      "Genre": "Mystery",
+      "Language": "English",
+      "ISBN": "978-1-4028-9462-1"
+    },
+    "rating": 3.2,
+    "stock": 94
+  },
+  {
+    "id": 30,
+    "name": "SoftStack Nesting Blocks",
+    "category": "Toys & Games",
+    "price": 27,
+    "image": "https://picsum.photos/seed/product-30/600/600",
+    "shortDescription": "Soft foam nesting blocks for toddlers that double as seat cushions.",
+    "longDescription": "SoftStack survives being sat on and thrown in a crib corner. Numbers and animals print on the sides. Wipe clean after snack incidents.",
+    "specs": {
+      "Pieces": "6",
+      "Material": "EVA foam",
+      "Ages": "1-4",
+      "Clean": "Wipeable",
+      "Storage": "Nests together"
+    },
+    "rating": 4.8,
+    "stock": 11
+  },
+  {
+    "id": 31,
+    "name": "Orbit Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 94,
+    "image": "https://picsum.photos/seed/product-31/600/600",
+    "shortDescription": "Rugged Bluetooth speaker with a surprisingly wide stereo field for its size.",
+    "longDescription": "Orbit handles poolside playlists and kitchen counters without sounding tinny. Party mode links two speakers if you want more volume. The battery indicator is honest instead of optimistic.",
+    "specs": {
+      "Battery Life": "12 hours",
+      "Water Resistance": "IP67",
+      "Connectivity": "Bluetooth 5.2",
+      "Weight": "640g",
+      "Output": "20W"
+    },
+    "rating": 4.3,
+    "stock": 24
+  },
+  {
+    "id": 32,
+    "name": "FrostBox Mini Fridge",
+    "category": "Home Appliances",
+    "price": 185,
+    "image": "https://picsum.photos/seed/product-32/600/600",
+    "shortDescription": "Quiet mini fridge for dorms and offices with a small freezer shelf.",
+    "longDescription": "FrostBox keeps drinks cold without the compressor roar of older cubes. The freezer shelf is for ice packs, not grocery runs. Reversible door helps tight corners.",
+    "specs": {
+      "Capacity": "3.2 cu ft",
+      "Freezer": "Chiller shelf",
+      "Noise": "38 dB",
+      "Energy": "Energy Star",
+      "Door": "Reversible"
+    },
+    "rating": 3.8,
+    "stock": 37
+  },
+  {
+    "id": 33,
+    "name": "Coastal Linen Shirt",
+    "category": "Fashion",
+    "price": 75,
+    "image": "https://picsum.photos/seed/product-33/600/600",
+    "shortDescription": "Breathable linen camp shirt for warm weather that still looks put together.",
+    "longDescription": "Coastal wrinkles honestly — that is part of the fabric. The camp collar skips a tie vibe for dinners outside. Side vents help when you tuck it in.",
+    "specs": {
+      "Material": "100% linen",
+      "Fit": "Relaxed",
+      "Collar": "Camp",
+      "Care": "Wash cold, hang dry",
+      "Origin": "India"
+    },
+    "rating": 3.3,
+    "stock": 50
+  },
+  {
+    "id": 34,
+    "name": "FormBench Folding Weight Bench",
+    "category": "Sports & Fitness",
+    "price": 159,
+    "image": "https://picsum.photos/seed/product-34/600/600",
+    "shortDescription": "Folding flat/incline bench that stores upright in small apartments.",
+    "longDescription": "FormBench locks at multiple angles for presses and step-ups. Padding does not bottom out under heavy sets. Wheels help when you drag it out of a closet.",
+    "specs": {
+      "Positions": "6 incline + flat",
+      "Capacity": "600 lb",
+      "Pad": "2.5 in",
+      "Fold": "Upright storage",
+      "Frame": "Steel"
+    },
+    "rating": 4.9,
+    "stock": 63
+  },
+  {
+    "id": 35,
+    "name": "SketchBlock Mixed Media Pad",
+    "category": "Books & Stationery",
+    "price": 15,
+    "image": "https://picsum.photos/seed/product-35/600/600",
+    "shortDescription": "Heavy mixed-media pad for ink, marker, and light watercolor studies.",
+    "longDescription": "SketchBlock takes wet media without warping into a potato chip. Spiral binding flips all the way back. Sixty sheets last longer than you expect.",
+    "specs": {
+      "Sheets": "60",
+      "Weight": "180 gsm",
+      "Size": "9x12 in",
+      "Binding": "Spiral",
+      "Media": "Ink/marker/watercolor"
+    },
+    "rating": 4.4,
+    "stock": 76
+  },
+  {
+    "id": 36,
+    "name": "DeckCraft Strategy Cards",
+    "category": "Toys & Games",
+    "price": 16,
+    "image": "https://picsum.photos/seed/product-36/600/600",
+    "shortDescription": "Two-player card game about building trade routes across a shared map.",
+    "longDescription": "DeckCraft games finish in 20 minutes, so rematches happen. Art is clear at arm length across a table. Expansion pack slot is printed on the tuck box for later.",
+    "specs": {
+      "Players": "2",
+      "Time": "20 min",
+      "Ages": "12+",
+      "Cards": "80",
+      "Type": "Strategy"
+    },
+    "rating": 3.9,
+    "stock": 89
+  },
+  {
+    "id": 37,
+    "name": "Keyline Mechanical Keyboard",
+    "category": "Electronics",
+    "price": 118,
+    "image": "https://picsum.photos/seed/product-37/600/600",
+    "shortDescription": "Hot-swappable mechanical keyboard with quiet switches for shared offices.",
+    "longDescription": "Keyline ships with tactile switches that stay quiet enough for open desks. The aluminum plate keeps the board from flexing. Mac and Windows layouts are both on the box.",
+    "specs": {
+      "Switches": "Tactile silent",
+      "Layout": "75%",
+      "Connection": "USB-C / Bluetooth",
+      "Keycaps": "PBT doubleshot",
+      "Weight": "890g"
+    },
+    "rating": 3.4,
+    "stock": 6
+  },
+  {
+    "id": 38,
+    "name": "BlendForge Personal Blender",
+    "category": "Home Appliances",
+    "price": 75,
+    "image": "https://picsum.photos/seed/product-38/600/600",
+    "shortDescription": "Single-serve blender with travel cups that double as the blending jar.",
+    "longDescription": "BlendForge is built for protein shakes and smoothies, not crushing ice mountains. Cups seal for the commute. The base stores two cups without taking half the counter.",
+    "specs": {
+      "Power": "900W",
+      "Cups": "2x 20oz",
+      "Blades": "Stainless 6-tip",
+      "Pulse": "Yes",
+      "BPA": "Free"
+    },
+    "rating": 5,
+    "stock": 19
+  },
+  {
+    "id": 39,
+    "name": "ArcFrame Sunglasses",
+    "category": "Fashion",
+    "price": 92,
+    "image": "https://picsum.photos/seed/product-39/600/600",
+    "shortDescription": "Acetate sunglasses with polarized lenses and a medium fit.",
+    "longDescription": "ArcFrame blocks glare on water and windshields without darkening everything to a cave. The acetate holds adjustment well. Soft case and cloth are in the box.",
+    "specs": {
+      "Lenses": "Polarized",
+      "UV": "UV400",
+      "Frame": "Acetate",
+      "Width": "Medium",
+      "Includes": "Case + cloth"
+    },
+    "rating": 4.5,
+    "stock": 32
+  },
+  {
+    "id": 40,
+    "name": "TrailPulse GPS Bike Computer",
+    "category": "Sports & Fitness",
+    "price": 211,
+    "image": "https://picsum.photos/seed/product-40/600/600",
+    "shortDescription": "GPS bike computer with maps and long battery for weekend rides.",
+    "longDescription": "TrailPulse shows climbing and lap data without needing your phone on the bars. Maps load for common routes. Mount is out-front and solid over rough pavement.",
+    "specs": {
+      "Battery": "20 hours",
+      "Display": "2.5-inch",
+      "GPS": "Multi-band",
+      "Maps": "On-device",
+      "Mount": "Out-front"
+    },
+    "rating": 4,
+    "stock": 45
+  },
+  {
+    "id": 41,
+    "name": "MarkSet Highlighter Duo (6)",
+    "category": "Books & Stationery",
+    "price": 14,
+    "image": "https://picsum.photos/seed/product-41/600/600",
+    "shortDescription": "Dual-tip highlighters with chisel and fine ends in six muted colors.",
+    "longDescription": "MarkSet colors stay readable on photocopies instead of neon blinding. Caps click on firmly. Ink does not dry out if you forget one overnight.",
+    "specs": {
+      "Tips": "Chisel + fine",
+      "Colors": "6 muted",
+      "Ink": "Water-based",
+      "Pack": "6",
+      "Bleed": "Low"
+    },
+    "rating": 3.5,
+    "stock": 58
+  },
+  {
+    "id": 42,
+    "name": "SkyLine Foam Glider",
+    "category": "Toys & Games",
+    "price": 12,
+    "image": "https://picsum.photos/seed/product-42/600/600",
+    "shortDescription": "Hand-launch foam glider that survives rough landings in parks.",
+    "longDescription": "SkyLine flies straight once you trim the tail tabs. Foam shrugs off tree hits better than balsa. No batteries, no pairing, no app.",
+    "specs": {
+      "Wingspan": "18 in",
+      "Material": "EPP foam",
+      "Power": "None",
+      "Ages": "5+",
+      "Assembly": "Snap wings"
+    },
+    "rating": 3,
+    "stock": 71
+  },
+  {
+    "id": 43,
+    "name": "LensKit Webcam Pro",
+    "category": "Electronics",
+    "price": 86,
+    "image": "https://picsum.photos/seed/product-43/600/600",
+    "shortDescription": "1080p webcam with a privacy shutter and auto light correction.",
+    "longDescription": "LensKit locks focus on your face during calls instead of hunting the background. The mic is usable if you are alone in a quiet room. Mount clips to laptops and monitors without tools.",
+    "specs": {
+      "Resolution": "1080p 60fps",
+      "FOV": "78 degrees",
+      "Mic": "Dual stereo",
+      "Mount": "Monitor clip",
+      "Connection": "USB-A"
+    },
+    "rating": 4.6,
+    "stock": 84
+  },
+  {
+    "id": 44,
+    "name": "DryAir Dehumidifier 30pt",
+    "category": "Home Appliances",
+    "price": 217,
+    "image": "https://picsum.photos/seed/product-44/600/600",
+    "shortDescription": "30-pint dehumidifier for basements and humid bedrooms.",
+    "longDescription": "DryAir pulls moisture without needing constant babysitting. Continuous drain hose support means fewer bucket empties. Auto humidity hold keeps the room steady.",
+    "specs": {
+      "Capacity": "30 pints/day",
+      "Tank": "1 gallon",
+      "Drain": "Hose compatible",
+      "Coverage": "1500 sq ft",
+      "Auto Defrost": "Yes"
+    },
+    "rating": 4.1,
+    "stock": 97
+  },
+  {
+    "id": 45,
+    "name": "PackLite Rain Shell",
+    "category": "Fashion",
+    "price": 110,
+    "image": "https://picsum.photos/seed/product-45/600/600",
+    "shortDescription": "Packable rain shell that stuffs into its own pocket for sudden showers.",
+    "longDescription": "PackLite sheds rain on bike rides and stadium nights. Pit zips dump heat when you are moving. Reflective hits on the shoulders help at dusk.",
+    "specs": {
+      "Waterproof": "10K mm",
+      "Breathability": "8K g/m2",
+      "Packs": "Into pocket",
+      "Weight": "280g",
+      "Seams": "Taped"
+    },
+    "rating": 3.6,
+    "stock": 14
+  },
+  {
+    "id": 46,
+    "name": "FlexBand Resistance Set",
+    "category": "Sports & Fitness",
+    "price": 34,
+    "image": "https://picsum.photos/seed/product-46/600/600",
+    "shortDescription": "Five-band resistance set with handles and door anchor for home workouts.",
+    "longDescription": "FlexBand covers light warm-ups through heavier pulls. Labels on each band stop the guessing. Door anchor is padded so it does not chew paint.",
+    "specs": {
+      "Bands": "5 levels",
+      "Max": "150 lb combined",
+      "Includes": "Handles, anchor, bag",
+      "Material": "Latex",
+      "Length": "48 in"
+    },
+    "rating": 3.1,
+    "stock": 27
+  },
+  {
+    "id": 47,
+    "name": "ShelfRead: Systems Thinking Intro",
+    "category": "Books & Stationery",
+    "price": 25,
+    "image": "https://picsum.photos/seed/product-47/600/600",
+    "shortDescription": "A practical intro to systems thinking for people who build products and teams.",
+    "longDescription": "Systems Thinking Intro uses workplace examples instead of abstract diagrams only. Chapters end with exercises you can run in a meeting. Paperback is pocketable for commute reading.",
+    "specs": {
+      "Format": "Paperback",
+      "Pages": "256",
+      "Genre": "Business / nonfiction",
+      "Language": "English",
+      "Edition": "2nd"
+    },
+    "rating": 4.7,
+    "stock": 40
+  },
+  {
+    "id": 48,
+    "name": "RobotKit Beginner Build",
+    "category": "Toys & Games",
+    "price": 64,
+    "image": "https://picsum.photos/seed/product-48/600/600",
+    "shortDescription": "Beginner robot kit that walks and avoids edges with a simple sensor.",
+    "longDescription": "RobotKit teaches assembly without needing soldering. Battery pack is AA-based so you are not hunting a proprietary charger. Manual is illustrated step-by-step.",
+    "specs": {
+      "Power": "3x AA",
+      "Skills": "Walk + edge detect",
+      "Ages": "10+",
+      "Tools": "Screwdriver included",
+      "Time": "2-3 hours build"
+    },
+    "rating": 4.2,
+    "stock": 53
+  },
+  {
+    "id": 49,
+    "name": "ChargeHub GaN 65W",
+    "category": "Electronics",
+    "price": 53,
+    "image": "https://picsum.photos/seed/product-49/600/600",
+    "shortDescription": "Three-port GaN charger that fills a laptop and phone from one brick.",
+    "longDescription": "ChargeHub stays cooler than older 65W bricks and fits in a jacket pocket. Ports share power intelligently when everything is plugged in. Cable not included, by design.",
+    "specs": {
+      "Output": "65W total",
+      "Ports": "2x USB-C, 1x USB-A",
+      "Tech": "GaN",
+      "Input": "100-240V",
+      "Weight": "145g"
+    },
+    "rating": 3.7,
+    "stock": 66
+  },
+  {
+    "id": 50,
+    "name": "ToastSlot 4-Slice Toaster",
+    "category": "Home Appliances",
+    "price": 52,
+    "image": "https://picsum.photos/seed/product-50/600/600",
+    "shortDescription": "Four-slot toaster with a bagel setting that browns one side harder.",
+    "longDescription": "ToastSlot handles family breakfasts without a second round. Crumb trays slide out from both ends. The shade dial is consistent batch to batch.",
+    "specs": {
+      "Slots": "4",
+      "Settings": "Bagel + defrost",
+      "Power": "1600W",
+      "Shade Levels": "7",
+      "Exterior": "Brushed steel"
+    },
+    "rating": 3.2,
+    "stock": 79
+  },
+  {
+    "id": 51,
+    "name": "Dayloop Leather Belt",
+    "category": "Fashion",
+    "price": 51,
+    "image": "https://picsum.photos/seed/product-51/600/600",
+    "shortDescription": "Full-grain leather belt with a low-profile buckle for trousers and jeans.",
+    "longDescription": "Dayloop is cut from a single piece so it does not peel after a year. Holes are cleanly punched. Width works with most dress and casual loops.",
+    "specs": {
+      "Material": "Full-grain leather",
+      "Width": "1.25 in",
+      "Buckle": "Brushed nickel",
+      "Sizes": "30-40",
+      "Origin": "USA"
+    },
+    "rating": 4.8,
+    "stock": 92
+  },
+  {
+    "id": 52,
+    "name": "CoreRoll Foam Roller",
+    "category": "Sports & Fitness",
+    "price": 36,
+    "image": "https://picsum.photos/seed/product-52/600/600",
+    "shortDescription": "Firm foam roller for calves, quads, and mid-back after training.",
+    "longDescription": "CoreRoll is denser than the supermarket soft ones that do nothing. Surface texture digs in without feeling like a cheese grater. Hollow core makes it lighter to carry.",
+    "specs": {
+      "Length": "18 in",
+      "Diameter": "6 in",
+      "Density": "Firm",
+      "Material": "EVA foam",
+      "Weight": "520g"
+    },
+    "rating": 4.3,
+    "stock": 9
+  },
+  {
+    "id": 53,
+    "name": "ClipBoard Interview Pad",
+    "category": "Books & Stationery",
+    "price": 17,
+    "image": "https://picsum.photos/seed/product-53/600/600",
+    "shortDescription": "Slim clipboard with a storage compartment for forms and pens.",
+    "longDescription": "ClipBoard keeps candidate packets from blowing around in conference rooms. Low-profile clip does not leave deep dents on paper. Interior holds a few spare pens.",
+    "specs": {
+      "Size": "Letter/A4",
+      "Clip": "Low profile",
+      "Storage": "Interior tray",
+      "Material": "Plastic",
+      "Color": "Charcoal"
+    },
+    "rating": 3.8,
+    "stock": 22
+  },
+  {
+    "id": 54,
+    "name": "MarbleRun Spiral Tower",
+    "category": "Toys & Games",
+    "price": 35,
+    "image": "https://picsum.photos/seed/product-54/600/600",
+    "shortDescription": "Spiral marble run tower with gates that change the path mid-drop.",
+    "longDescription": "MarbleRun keeps kids experimenting after the first build. Gates click without needing glue. Marbles are large enough to avoid choke risk for the listed age.",
+    "specs": {
+      "Height": "2 ft",
+      "Marbles": "8 included",
+      "Ages": "5+",
+      "Material": "ABS plastic",
+      "Gates": "4 adjustable"
+    },
+    "rating": 3.3,
+    "stock": 35
+  },
+  {
+    "id": 55,
+    "name": "StreamCast Capture Card",
+    "category": "Electronics",
+    "price": 96,
+    "image": "https://picsum.photos/seed/product-55/600/600",
+    "shortDescription": "USB capture card for bringing console and camera feeds into your PC.",
+    "longDescription": "StreamCast passes 1080p60 with low lag for gameplay overlays. Drivers install cleanly on Windows; Mac users get UVC out of the box. HDMI loop-out keeps your TV in the mix.",
+    "specs": {
+      "Input": "HDMI",
+      "Output": "USB 3.0",
+      "Resolution": "1080p60",
+      "Loop-out": "Yes",
+      "Latency": "<60ms"
+    },
+    "rating": 4.9,
+    "stock": 48
+  },
+  {
+    "id": 56,
+    "name": "VacTrail Cordless Stick",
+    "category": "Home Appliances",
+    "price": 242,
+    "image": "https://picsum.photos/seed/product-56/600/600",
+    "shortDescription": "Lightweight stick vacuum with a removable battery for whole-home runs.",
+    "longDescription": "VacTrail swaps batteries so you can finish upstairs after the first pack dies. The motorized head handles hardwood and low carpet. Crevice tools clip on the wand.",
+    "specs": {
+      "Runtime": "40 min (eco)",
+      "Battery": "Removable 25.2V",
+      "Weight": "2.7kg",
+      "Filtration": "5-stage",
+      "Bin": "0.6L"
+    },
+    "rating": 4.4,
+    "stock": 61
+  },
+  {
+    "id": 57,
+    "name": "KnitPeak Beanie",
+    "category": "Fashion",
+    "price": 37,
+    "image": "https://picsum.photos/seed/product-57/600/600",
+    "shortDescription": "Ribbed merino blend beanie that covers the ears without itching.",
+    "longDescription": "KnitPeak stays warm when wetter than wool hats that go limp. The cuff can fold for different depths. One size fits most adults.",
+    "specs": {
+      "Material": "Merino blend",
+      "Style": "Cuffed rib",
+      "Size": "One size",
+      "Care": "Hand wash",
+      "Lining": "None"
+    },
+    "rating": 3.9,
+    "stock": 74
+  },
+  {
+    "id": 58,
+    "name": "SwimSeal Goggles",
+    "category": "Sports & Fitness",
+    "price": 35,
+    "image": "https://picsum.photos/seed/product-58/600/600",
+    "shortDescription": "Low-profile swim goggles with anti-fog lenses and a soft gasket.",
+    "longDescription": "SwimSeal seals without a headache strap crank. Tint works indoors and outside. Nose bridge pieces cover most face shapes.",
+    "specs": {
+      "Lenses": "Anti-fog UV",
+      "Fit": "3 nose bridges",
+      "Strap": "Silicone",
+      "Case": "Hard case",
+      "Tint": "Smoke"
+    },
+    "rating": 3.4,
+    "stock": 87
+  },
+  {
+    "id": 59,
+    "name": "GraphRight Engineering Pad",
+    "category": "Books & Stationery",
+    "price": 11,
+    "image": "https://picsum.photos/seed/product-59/600/600",
+    "shortDescription": "Green-tint engineering pad with 5x5 grid for sketches and calculations.",
+    "longDescription": "GraphRight tears clean at the top binding. Grid shows through lightly on the back for tracing. Fifty sheets per pad.",
+    "specs": {
+      "Grid": "5x5",
+      "Sheets": "50",
+      "Size": "8.5x11 in",
+      "Paper": "Green tint",
+      "Binding": "Tape top"
+    },
+    "rating": 5,
+    "stock": 100
+  },
+  {
+    "id": 60,
+    "name": "CharadeBox Party Game",
+    "category": "Toys & Games",
+    "price": 30,
+    "image": "https://picsum.photos/seed/product-60/600/600",
+    "shortDescription": "Fast party game of timed charades with category cards for mixed groups.",
+    "longDescription": "CharadeBox works for teens and adults without inside jokes required. Rounds stay short so quiet players get turns. Card stock holds up to snack hands.",
+    "specs": {
+      "Players": "4+",
+      "Time": "30 min",
+      "Ages": "14+",
+      "Cards": "200",
+      "Timer": "Sand timer"
+    },
+    "rating": 4.5,
+    "stock": 17
+  },
+  {
+    "id": 61,
+    "name": "QuietFan Laptop Stand",
+    "category": "Electronics",
+    "price": 43,
+    "image": "https://picsum.photos/seed/product-61/600/600",
+    "shortDescription": "Aluminum stand with a quiet fan that cools thin laptops during long sessions.",
+    "longDescription": "QuietFan lifts the screen to a better angle and pulls heat off the underside. The fan has two speeds and is barely audible on low. Rubber pads keep the laptop from sliding.",
+    "specs": {
+      "Material": "Aluminum",
+      "Fan Noise": "22 dB (low)",
+      "Height": "Adjustable 15-20cm",
+      "Compatibility": "Up to 17-inch",
+      "Power": "USB"
+    },
+    "rating": 4,
+    "stock": 30
+  },
+  {
+    "id": 62,
+    "name": "KettlePure Electric Kettle",
+    "category": "Home Appliances",
+    "price": 59,
+    "image": "https://picsum.photos/seed/product-62/600/600",
+    "shortDescription": "Gooseneck electric kettle with temperature presets for pour-over coffee.",
+    "longDescription": "KettlePure holds the temperature you set instead of boiling everything the same way. The gooseneck spout makes slow pours controllable. Keep-warm runs for about 30 minutes.",
+    "specs": {
+      "Capacity": "0.9L",
+      "Presets": "5 temperatures",
+      "Power": "1200W",
+      "Spout": "Gooseneck",
+      "Keep Warm": "30 min"
+    },
+    "rating": 3.5,
+    "stock": 43
+  },
+  {
+    "id": 63,
+    "name": "StrideRun Daily Trainers",
+    "category": "Fashion",
+    "price": 100,
+    "image": "https://picsum.photos/seed/product-63/600/600",
+    "shortDescription": "Cushioned trainers for easy miles and all-day walking.",
+    "longDescription": "StrideRun softens pavement without feeling unstable at a jog. The upper breathes enough for summer runs. Outsole rubber is placed where you actually wear through.",
+    "specs": {
+      "Drop": "8mm",
+      "Stack": "32mm heel",
+      "Upper": "Engineered mesh",
+      "Use": "Easy run / walk",
+      "Weight": "255g (M9)"
+    },
+    "rating": 3,
+    "stock": 56
+  },
+  {
+    "id": 64,
+    "name": "ClimbTape Athletic Tape (2pk)",
+    "category": "Sports & Fitness",
+    "price": 15,
+    "image": "https://picsum.photos/seed/product-64/600/600",
+    "shortDescription": "Rigid athletic tape for fingers and joints during climbing sessions.",
+    "longDescription": "ClimbTape tears clean by hand and sticks through chalked sessions. Not stretchy kinesiology tape — this is the classic support stuff. Two rolls last a training block.",
+    "specs": {
+      "Width": "1.5 in",
+      "Length": "15 yd each",
+      "Pack": "2 rolls",
+      "Adhesive": "Zinc oxide",
+      "Tear": "Hand tear"
+    },
+    "rating": 4.6,
+    "stock": 69
+  },
+  {
+    "id": 65,
+    "name": "Letterpress Card Set",
+    "category": "Books & Stationery",
+    "price": 23,
+    "image": "https://picsum.photos/seed/product-65/600/600",
+    "shortDescription": "Set of eight letterpress thank-you cards with envelopes.",
+    "longDescription": "Letterpress cards have real impression depth you can feel. Blank insides leave room for a short note. Envelopes match without looking like office stock.",
+    "specs": {
+      "Cards": "8",
+      "Envelopes": "8",
+      "Print": "Letterpress",
+      "Size": "A2",
+      "Inside": "Blank"
+    },
+    "rating": 4.1,
+    "stock": 82
+  },
+  {
+    "id": 66,
+    "name": "PlushOrbit Stuffed Planet",
+    "category": "Toys & Games",
+    "price": 18,
+    "image": "https://picsum.photos/seed/product-66/600/600",
+    "shortDescription": "Soft plush planet with embroidered craters and a loop for hanging.",
+    "longDescription": "PlushOrbit is sized for kids to hug and for desks as a soft paperweight. Embroidery holds after washes better than printed fabric. Loop hangs from a backpack zipper.",
+    "specs": {
+      "Diameter": "8 in",
+      "Fill": "Polyester",
+      "Care": "Surface wash",
+      "Loop": "Hang tab",
+      "Ages": "0+"
+    },
+    "rating": 3.6,
+    "stock": 95
+  },
+  {
+    "id": 67,
+    "name": "PixelBeam LED Desk Lamp",
+    "category": "Electronics",
+    "price": 68,
+    "image": "https://picsum.photos/seed/product-67/600/600",
+    "shortDescription": "Dimmable desk lamp with a warm-to-cool dial for late editing sessions.",
+    "longDescription": "PixelBeam spreads light evenly across a keyboard without harsh hotspots. The arm holds position after you set it. USB-C power means one less proprietary brick.",
+    "specs": {
+      "Brightness": "800 lumens",
+      "Color Temp": "2700-6500K",
+      "Power": "USB-C 12W",
+      "Arm": "Gooseneck",
+      "CRI": "95+"
+    },
+    "rating": 3.1,
+    "stock": 12
+  },
+  {
+    "id": 68,
+    "name": "OvenMate Counter Convection",
+    "category": "Home Appliances",
+    "price": 177,
+    "image": "https://picsum.photos/seed/product-68/600/600",
+    "shortDescription": "Countertop convection oven that replaces a toaster oven for weeknight meals.",
+    "longDescription": "OvenMate circulates heat evenly enough for sheet-pan dinners. Presets cover toast, bake, and air-fry style crisping. Cleanup is one removable crumb tray.",
+    "specs": {
+      "Capacity": "25L",
+      "Modes": "Bake, toast, air crisp",
+      "Temp": "150-450F",
+      "Power": "1800W",
+      "Interior": "Nonstick"
+    },
+    "rating": 4.7,
+    "stock": 25
+  },
+  {
+    "id": 69,
+    "name": "FieldDenim Straight Jeans",
+    "category": "Fashion",
+    "price": 103,
+    "image": "https://picsum.photos/seed/product-69/600/600",
+    "shortDescription": "Mid-wash straight jeans with a bit of stretch and a clean finish.",
+    "longDescription": "FieldDenim sits between rigid heritage denim and skinny stretch. The mid wash hides everyday scuffs. Rise is modern without going ultra-high.",
+    "specs": {
+      "Material": "98% cotton / 2% elastane",
+      "Fit": "Straight",
+      "Rise": "Mid",
+      "Wash": "Medium indigo",
+      "Care": "Wash inside out"
+    },
+    "rating": 4.2,
+    "stock": 38
+  },
+  {
+    "id": 70,
+    "name": "KickStep Agility Ladder",
+    "category": "Sports & Fitness",
+    "price": 21,
+    "image": "https://picsum.photos/seed/product-70/600/600",
+    "shortDescription": "Flat agility ladder with carry bag for footwork drills.",
+    "longDescription": "KickStep stays flat so ankles do not catch rungs. Adjustable spacing covers different drills. Pegs keep it from sliding on turf.",
+    "specs": {
+      "Rungs": "12",
+      "Length": "20 ft",
+      "Material": "Nylon + plastic",
+      "Bag": "Included",
+      "Pegs": "4"
+    },
+    "rating": 3.7,
+    "stock": 51
+  },
+  {
+    "id": 71,
+    "name": "Archive Box Document File",
+    "category": "Books & Stationery",
+    "price": 15,
+    "image": "https://picsum.photos/seed/product-71/600/600",
+    "shortDescription": "Lidded document box for papers you are not ready to shred.",
+    "longDescription": "Archive Box stacks without crushing the ones underneath. Label window on the end face helps shelves stay sane. Holds letter and A4 folders.",
+    "specs": {
+      "Size": "Letter/A4",
+      "Material": "Board + cloth",
+      "Closure": "Lid",
+      "Label": "End window",
+      "Stackable": "Yes"
+    },
+    "rating": 3.2,
+    "stock": 64
+  },
+  {
+    "id": 72,
+    "name": "TrainTrack Wooden Set",
+    "category": "Toys & Games",
+    "price": 44,
+    "image": "https://picsum.photos/seed/product-72/600/600",
+    "shortDescription": "Wooden train track expansion with bridges and a crossing gate.",
+    "longDescription": "TrainTrack fits the major wooden railway brands already in living rooms. Wood is smooth enough for little hands. Crossing gate actually lowers.",
+    "specs": {
+      "Pieces": "25",
+      "Material": "Beech wood",
+      "Compatible": "Major wooden brands",
+      "Ages": "3+",
+      "Includes": "Bridge + gate"
+    },
+    "rating": 4.8,
+    "stock": 77
+  },
+  {
+    "id": 73,
+    "name": "SyncPad Drawing Tablet",
+    "category": "Electronics",
+    "price": 110,
+    "image": "https://picsum.photos/seed/product-73/600/600",
+    "shortDescription": "Medium drawing tablet with a battery-free pen and express keys.",
+    "longDescription": "SyncPad maps cleanly in major illustration apps and keeps pen lag low enough for sketching. The surface has a slight tooth so it does not feel like glass. Six shortcut keys sit on the left.",
+    "specs": {
+      "Active Area": "10 x 6 in",
+      "Pressure": "8192 levels",
+      "Connection": "USB-C",
+      "Pen": "Battery-free",
+      "Weight": "590g"
+    },
+    "rating": 4.3,
+    "stock": 90
+  },
+  {
+    "id": 74,
+    "name": "HumidMist Ultrasonic Humidifier",
+    "category": "Home Appliances",
+    "price": 53,
+    "image": "https://picsum.photos/seed/product-74/600/600",
+    "shortDescription": "Cool-mist humidifier with a top-fill tank that is easy to clean.",
+    "longDescription": "HumidMist softens dry winter air in bedrooms without white dust if you use distilled water. The dial is simple — no app required. Night light is optional and dim.",
+    "specs": {
+      "Tank": "4L",
+      "Runtime": "24 hours",
+      "Mist": "Cool ultrasonic",
+      "Coverage": "400 sq ft",
+      "Fill": "Top-fill"
+    },
+    "rating": 3.8,
+    "stock": 7
+  },
+  {
+    "id": 75,
+    "name": "CarrySling Crossbody",
+    "category": "Fashion",
+    "price": 57,
+    "image": "https://picsum.photos/seed/product-75/600/600",
+    "shortDescription": "Compact crossbody for phone, wallet, and keys when a backpack is overkill.",
+    "longDescription": "CarrySling sits flat against the body and does not bounce when you walk. The main zip is RFID-lined for cards. Adjustable strap fits most torsos.",
+    "specs": {
+      "Material": "Nylon ripstop",
+      "Volume": "2L",
+      "Closure": "YKK zip",
+      "Strap": "Adjustable",
+      "RFID": "Yes"
+    },
+    "rating": 3.3,
+    "stock": 20
+  },
+  {
+    "id": 76,
+    "name": "PowerGrip Lifting Straps",
+    "category": "Sports & Fitness",
+    "price": 19,
+    "image": "https://picsum.photos/seed/product-76/600/600",
+    "shortDescription": "Cotton lifting straps for heavy pulls when grip fails first.",
+    "longDescription": "PowerGrip wraps the bar cleanly and releases without a fight. Length works for mixed grip and hook grip transitions. Wash them when chalk builds up.",
+    "specs": {
+      "Material": "Cotton",
+      "Length": "22 in",
+      "Width": "1.5 in",
+      "Pair": "Yes",
+      "Color": "Black"
+    },
+    "rating": 4.9,
+    "stock": 33
+  },
+  {
+    "id": 77,
+    "name": "PenCup Ceramic Desk Set",
+    "category": "Books & Stationery",
+    "price": 35,
+    "image": "https://picsum.photos/seed/product-77/600/600",
+    "shortDescription": "Two ceramic cups for pens and clips that do not look like office leftovers.",
+    "longDescription": "PenCup keeps the desk from turning into a drawer explosion. Weighted bases do not tip when you grab a pen. Matte glaze hides fingerprints.",
+    "specs": {
+      "Pieces": "2 cups",
+      "Material": "Ceramic",
+      "Finish": "Matte",
+      "Base": "Weighted",
+      "Care": "Wipe clean"
+    },
+    "rating": 4.4,
+    "stock": 46
+  },
+  {
+    "id": 78,
+    "name": "ScienceLab Crystal Kit",
+    "category": "Toys & Games",
+    "price": 25,
+    "image": "https://picsum.photos/seed/product-78/600/600",
+    "shortDescription": "Crystal growing kit with safe chemicals and a display stand.",
+    "longDescription": "ScienceLab grows crystals over a few days with clear instructions. Goggles are included. Stand shows off the result when it is done.",
+    "specs": {
+      "Experiments": "2 crystal types",
+      "Ages": "8+",
+      "Includes": "Goggles + stand",
+      "Time": "3-5 days",
+      "Safety": "Non-toxic formula"
+    },
+    "rating": 3.9,
+    "stock": 59
+  },
+  {
+    "id": 79,
+    "name": "MeshNode Wi-Fi Extender",
+    "category": "Electronics",
+    "price": 100,
+    "image": "https://picsum.photos/seed/product-79/600/600",
+    "shortDescription": "Compact mesh node that fills dead zones without another ugly router.",
+    "longDescription": "MeshNode joins your existing network and covers rooms that drop video calls. Setup walks through the phone app in a few minutes. Night light mode dims the LEDs.",
+    "specs": {
+      "Standard": "Wi-Fi 6",
+      "Bands": "Dual-band",
+      "Coverage": "Up to 1500 sq ft",
+      "Ports": "1x Gigabit",
+      "Setup": "App-guided"
+    },
+    "rating": 3.4,
+    "stock": 72
+  },
+  {
+    "id": 80,
+    "name": "DishQuick Countertop Washer",
+    "category": "Home Appliances",
+    "price": 296,
+    "image": "https://picsum.photos/seed/product-80/600/600",
+    "shortDescription": "Compact countertop dishwasher for small kitchens without a built-in unit.",
+    "longDescription": "DishQuick connects to the faucet for fill and drain. A full load handles plates for two people. Cycles finish quietly enough to run overnight.",
+    "specs": {
+      "Place Settings": "2",
+      "Water": "Faucet adapter",
+      "Cycles": "5",
+      "Delay": "1-24 hours",
+      "Dimensions": "17x17x18 in"
+    },
+    "rating": 5,
+    "stock": 85
+  },
+  {
+    "id": 81,
+    "name": "WoolStep Ankle Socks (3pk)",
+    "category": "Fashion",
+    "price": 36,
+    "image": "https://picsum.photos/seed/product-81/600/600",
+    "shortDescription": "Merino ankle socks in a three-pack for boots and sneakers.",
+    "longDescription": "WoolStep manages sweat better than cotton on long days. Seams sit away from the toes. The pack covers black, grey, and navy.",
+    "specs": {
+      "Material": "Merino blend",
+      "Height": "Ankle",
+      "Pack": "3 pairs",
+      "Cushion": "Light",
+      "Care": "Machine wash"
+    },
+    "rating": 4.5,
+    "stock": 98
+  },
+  {
+    "id": 82,
+    "name": "BalanceDisc Stability Pad",
+    "category": "Sports & Fitness",
+    "price": 24,
+    "image": "https://picsum.photos/seed/product-82/600/600",
+    "shortDescription": "Inflatable balance disc for core work and ankle rehab drills.",
+    "longDescription": "BalanceDisc adds instability to planks and single-leg stands. Pump is included. Surface bumps give bare feet something to grip.",
+    "specs": {
+      "Diameter": "13 in",
+      "Material": "PVC",
+      "Pump": "Included",
+      "Use": "Balance / rehab",
+      "Weight Limit": "300 lb"
+    },
+    "rating": 4,
+    "stock": 15
+  },
+  {
+    "id": 83,
+    "name": "ReadLight Clip Book Light",
+    "category": "Books & Stationery",
+    "price": 21,
+    "image": "https://picsum.photos/seed/product-83/600/600",
+    "shortDescription": "Warm clip-on book light that does not bleed across the whole room.",
+    "longDescription": "ReadLight focuses on the page so partners can sleep. USB-C recharge lasts through a long flight. Clip fits hardcovers and thick paperbacks.",
+    "specs": {
+      "Battery Life": "8 hours",
+      "Temp": "Warm white",
+      "Charge": "USB-C",
+      "Clip": "Up to 1 in",
+      "Modes": "3 brightness"
+    },
+    "rating": 3.5,
+    "stock": 28
+  },
+  {
+    "id": 84,
+    "name": "DuelMini Table Football",
+    "category": "Toys & Games",
+    "price": 48,
+    "image": "https://picsum.photos/seed/product-84/600/600",
+    "shortDescription": "Desktop foosball for two players that clamps to a table edge.",
+    "longDescription": "DuelMini is loud in a good way for office breaks. Clamp keeps it from walking off the desk mid-goal. Balls are included with two spares.",
+    "specs": {
+      "Players": "2",
+      "Mount": "Table clamp",
+      "Balls": "3",
+      "Size": "24x12 in",
+      "Ages": "6+"
+    },
+    "rating": 3,
+    "stock": 41
+  },
+  {
+    "id": 85,
+    "name": "ClipMic Lavalier Kit",
+    "category": "Electronics",
+    "price": 46,
+    "image": "https://picsum.photos/seed/product-85/600/600",
+    "shortDescription": "Dual lavalier mic kit for interviews and phone video with a clean cable run.",
+    "longDescription": "ClipMic plugs into phones and cameras with the included adapters. Windscreens cut outdoor fluff on the audio. The case keeps both mics and clips from disappearing in a bag.",
+    "specs": {
+      "Channels": "Dual mono",
+      "Connector": "3.5mm TRRS",
+      "Cable": "6m each",
+      "Includes": "Adapters + case",
+      "Frequency": "50Hz-18kHz"
+    },
+    "rating": 4.6,
+    "stock": 54
+  },
+  {
+    "id": 86,
+    "name": "IronPress Steam Station",
+    "category": "Home Appliances",
+    "price": 123,
+    "image": "https://picsum.photos/seed/product-86/600/600",
+    "shortDescription": "Steam station iron with a large water tank for stacks of laundry.",
+    "longDescription": "IronPress puts out continuous steam that softens thick cotton faster than a basic iron. The cork handle stays cooler during long sessions. Auto shutoff covers the forgetful moments.",
+    "specs": {
+      "Steam Output": "120 g/min",
+      "Tank": "1.5L",
+      "Soleplate": "Ceramic",
+      "Power": "2200W",
+      "Auto Off": "Yes"
+    },
+    "rating": 4.1,
+    "stock": 67
+  },
+  {
+    "id": 87,
+    "name": "TailorZip Bomber Jacket",
+    "category": "Fashion",
+    "price": 145,
+    "image": "https://picsum.photos/seed/product-87/600/600",
+    "shortDescription": "Unlined bomber with a matte finish for cool evenings.",
+    "longDescription": "TailorZip layers over shirts without looking sporty. Rib cuffs keep wind out at the wrists. Two hand pockets and an interior slip pocket cover the basics.",
+    "specs": {
+      "Shell": "Nylon",
+      "Lining": "Unlined",
+      "Closure": "Zip",
+      "Pockets": "2 hand + 1 interior",
+      "Fit": "Regular"
+    },
+    "rating": 3.6,
+    "stock": 80
+  },
+  {
+    "id": 88,
+    "name": "RaceFuel Gel Pack (12)",
+    "category": "Sports & Fitness",
+    "price": 26,
+    "image": "https://picsum.photos/seed/product-88/600/600",
+    "shortDescription": "Box of 12 energy gels with electrolytes for long runs and rides.",
+    "longDescription": "RaceFuel goes down without the gluey aftertaste of older gels. Caffeine options are labeled clearly. Tear notches actually open on the first try.",
+    "specs": {
+      "Servings": "12",
+      "Caffeine": "Mixed (labeled)",
+      "Electrolytes": "Sodium + potassium",
+      "Texture": "Thin gel",
+      "Flavor": "Assorted"
+    },
+    "rating": 3.1,
+    "stock": 93
+  },
+  {
+    "id": 89,
+    "name": "IndexTab Sticky Flags (120)",
+    "category": "Books & Stationery",
+    "price": 9,
+    "image": "https://picsum.photos/seed/product-89/600/600",
+    "shortDescription": "Writable sticky flags in four colors for marking textbooks and contracts.",
+    "longDescription": "IndexTab sticks and resticks without tearing pages. Writable surface takes ballpoint cleanly. Dispenser keeps them from turning into a tangled wad.",
+    "specs": {
+      "Flags": "120",
+      "Colors": "4",
+      "Writable": "Yes",
+      "Dispenser": "Included",
+      "Size": "1x1.7 in"
+    },
+    "rating": 4.7,
+    "stock": 10
+  },
+  {
+    "id": 90,
+    "name": "StoryDice Imagination Set",
+    "category": "Toys & Games",
+    "price": 14,
+    "image": "https://picsum.photos/seed/product-90/600/600",
+    "shortDescription": "Nine illustrated dice that prompt silly story starters for kids.",
+    "longDescription": "StoryDice works for car rides and classrooms when attention is short. Icons are readable without tiny details. Cloth bag stores them.",
+    "specs": {
+      "Dice": "9",
+      "Ages": "5+",
+      "Bag": "Cloth included",
+      "Material": "Wood",
+      "Use": "Story prompts"
+    },
+    "rating": 4.2,
+    "stock": 23
+  },
+  {
+    "id": 91,
+    "name": "FrameLock Action Cam",
+    "category": "Electronics",
+    "price": 157,
+    "image": "https://picsum.photos/seed/product-91/600/600",
+    "shortDescription": "Stabilized action camera for bike rides and weekend trips.",
+    "longDescription": "FrameLock shoots 4K with electronic stabilization that keeps trails watchable. Waterproof housing is rated for shallow dives. The app dumps clips over Wi-Fi without hunting for a card reader.",
+    "specs": {
+      "Video": "4K 30fps",
+      "Stabilization": "EIS",
+      "Waterproof": "10m with case",
+      "Storage": "microSD",
+      "Battery": "90 minutes"
+    },
+    "rating": 3.7,
+    "stock": 36
+  },
+  {
+    "id": 92,
+    "name": "FanSweep Pedestal Fan",
+    "category": "Home Appliances",
+    "price": 63,
+    "image": "https://picsum.photos/seed/product-92/600/600",
+    "shortDescription": "Quiet pedestal fan with remote and a timer for evening cool-downs.",
+    "longDescription": "FanSweep moves air across a room without the rattle of cheap motors. Height adjusts for couches and beds. The remote docks magnetically on the pole.",
+    "specs": {
+      "Speeds": "3",
+      "Oscillation": "90 degrees",
+      "Timer": "1-8 hours",
+      "Height": "40-52 in",
+      "Remote": "Yes"
+    },
+    "rating": 3.2,
+    "stock": 49
+  },
+  {
+    "id": 93,
+    "name": "PalmWeave Straw Hat",
+    "category": "Fashion",
+    "price": 32,
+    "image": "https://picsum.photos/seed/product-93/600/600",
+    "shortDescription": "Wide-brim straw hat with a chin cord for windy beach days.",
+    "longDescription": "PalmWeave shades face and neck without looking costume-y. The inner band wicks a bit of sweat. Cord stows when you do not need it.",
+    "specs": {
+      "Brim": "3.5 in",
+      "Material": "Paper straw",
+      "Cord": "Adjustable",
+      "Size": "M/L",
+      "Band": "Fabric sweatband"
+    },
+    "rating": 4.8,
+    "stock": 62
+  },
+  {
+    "id": 94,
+    "name": "CourtGrip Basketball",
+    "category": "Sports & Fitness",
+    "price": 28,
+    "image": "https://picsum.photos/seed/product-94/600/600",
+    "shortDescription": "Indoor/outdoor basketball with a consistent grip out of the box.",
+    "longDescription": "CourtGrip holds air well and does not feel plasticky on outdoor courts. Channel design helps fingertip control. Pump needle is taped to the box.",
+    "specs": {
+      "Size": "7 (29.5 in)",
+      "Surface": "Indoor/outdoor",
+      "Material": "Composite leather",
+      "Bladder": "Butyl",
+      "Needle": "Included"
+    },
+    "rating": 4.3,
+    "stock": 75
+  },
+  {
+    "id": 95,
+    "name": "CaseStudy: Design Ops Handbook",
+    "category": "Books & Stationery",
+    "price": 38,
+    "image": "https://picsum.photos/seed/product-95/600/600",
+    "shortDescription": "A handbook on running design operations inside growing product teams.",
+    "longDescription": "Design Ops Handbook covers rituals, tooling choices, and hiring without pretending every company is a FAANG clone. Sidebars call out what fails in smaller orgs. Paperback with durable cover.",
+    "specs": {
+      "Format": "Paperback",
+      "Pages": "288",
+      "Genre": "Design / management",
+      "Language": "English",
+      "Illustrations": "Diagrams"
+    },
+    "rating": 3.8,
+    "stock": 88
+  },
+  {
+    "id": 96,
+    "name": "BuildBot Magnetic Tiles (48)",
+    "category": "Toys & Games",
+    "price": 32,
+    "image": "https://picsum.photos/seed/product-96/600/600",
+    "shortDescription": "Magnetic tile set for building towers, houses, and ramps.",
+    "longDescription": "BuildBot magnets are strong enough to hold taller builds without constant collapse. Tiles wipe clean. Idea cards start kids who need a nudge.",
+    "specs": {
+      "Pieces": "48",
+      "Ages": "3+",
+      "Magnets": "Sealed edges",
+      "Cards": "Idea cards",
+      "Material": "ABS"
+    },
+    "rating": 3.3,
+    "stock": 5
+  },
+  {
+    "id": 97,
+    "name": "DockPro USB-C Hub",
+    "category": "Electronics",
+    "price": 59,
+    "image": "https://picsum.photos/seed/product-97/600/600",
+    "shortDescription": "Eight-in-one hub that turns one USB-C port into a full desk setup.",
+    "longDescription": "DockPro adds HDMI, Ethernet, card readers, and charge-through in one stick. It runs warmer under load, so leave it some air. Drivers are not required on recent systems.",
+    "specs": {
+      "Ports": "8",
+      "HDMI": "4K 60Hz",
+      "Ethernet": "1Gbps",
+      "Power Delivery": "100W passthrough",
+      "Card": "SD/microSD"
+    },
+    "rating": 4.9,
+    "stock": 18
+  },
+  {
+    "id": 98,
+    "name": "RiceBowl Fuzzy Cooker",
+    "category": "Home Appliances",
+    "price": 95,
+    "image": "https://picsum.photos/seed/product-98/600/600",
+    "shortDescription": "Fuzzy-logic rice cooker that handles white, brown, and porridge without babysitting.",
+    "longDescription": "RiceBowl adjusts cook time based on moisture instead of a single timer. The nonstick pot cleans with a soft sponge. Keep-warm does not dry the rice out for hours.",
+    "specs": {
+      "Capacity": "5.5 cups uncooked",
+      "Modes": "White, brown, porridge",
+      "Pot": "Nonstick",
+      "Power": "860W",
+      "Timer": "24-hour delay"
+    },
+    "rating": 4.4,
+    "stock": 31
+  },
+  {
+    "id": 99,
+    "name": "StudioTee Heavyweight",
+    "category": "Fashion",
+    "price": 37,
+    "image": "https://picsum.photos/seed/product-99/600/600",
+    "shortDescription": "Heavyweight cotton tee that keeps its shape after washes.",
+    "longDescription": "StudioTee uses a denser knit so it does not go sheer. Shoulders sit clean under overshirts. Available in colors that are not just black and white.",
+    "specs": {
+      "Material": "100% cotton",
+      "Weight": "220 gsm",
+      "Fit": "Boxy regular",
+      "Neck": "Rib crew",
+      "Care": "Machine wash cold"
+    },
+    "rating": 3.9,
+    "stock": 44
+  },
+  {
+    "id": 100,
+    "name": "StretchBar Doorway Trainer",
+    "category": "Sports & Fitness",
+    "price": 32,
+    "image": "https://picsum.photos/seed/product-100/600/600",
+    "shortDescription": "Doorway pull-up bar with safety locks for home upper-body work.",
+    "longDescription": "StretchBar mounts without drilling and includes lock arms that catch if the door frame is wider than expected. Foam grips stay put. Remove it when guests need the doorway.",
+    "specs": {
+      "Capacity": "300 lb",
+      "Mount": "Doorway no-drill",
+      "Grip": "Foam",
+      "Width": "24-36 in frames",
+      "Includes": "Lock arms"
+    },
+    "rating": 3.4,
+    "stock": 57
+  }
+]

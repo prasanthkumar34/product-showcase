@@ -5,7 +5,7 @@ import ProductGrid from '../components/products/ProductGrid'
 
 const ProductListingPage = () => {
   return (
-    <div className="flex flex-col gap-6">
+    <div className="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-8 md:px-6">
       <div className="rounded-lg border border-dashed border-primary/30 bg-white px-4 py-3 text-center text-sm font-semibold text-primary">
         ProductListingPage
       </div>
