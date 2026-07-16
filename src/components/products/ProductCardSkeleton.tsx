@@ -1,6 +1,11 @@
-export default function ProductCardSkeleton() {
+import { memo } from 'react'
+
+function ProductCardSkeleton() {
   return (
-    <div className="flex h-full flex-col overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm">
+    <div
+      className="flex h-full flex-col overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm"
+      aria-hidden="true"
+    >
       <div className="aspect-square w-full animate-pulse bg-gray-200" />
       <div className="flex flex-1 flex-col gap-3 p-4">
         <div className="h-5 w-24 animate-pulse rounded-full bg-gray-200" />
@@ -14,3 +19,5 @@ export default function ProductCardSkeleton() {
     </div>
   )
 }
+
+export default memo(ProductCardSkeleton)

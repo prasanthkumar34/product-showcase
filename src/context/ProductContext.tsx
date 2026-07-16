@@ -1,4 +1,4 @@
-import { createContext, useEffect, useReducer, type ReactNode } from 'react'
+import { createContext, useCallback, useEffect, useReducer, type ReactNode } from 'react'
 import type { Product } from '../types/product'
 import { getAllProducts } from '../services/productService'
 
@@ -41,7 +41,7 @@ export const ProductContext = createContext<ProductContextValue | null>(null)
 export function ProductProvider({ children }: { children: ReactNode }) {
   const [state, dispatch] = useReducer(productReducer, initialState)
 
-  async function fetchProducts() {
+  const fetchProducts = useCallback(async () => {
     dispatch({ type: 'FETCH_START' })
     try {
       const data = await getAllProducts()
@@ -50,11 +50,11 @@ export function ProductProvider({ children }: { children: ReactNode }) {
       const message = err instanceof Error ? err.message : 'Failed to load products'
       dispatch({ type: 'FETCH_ERROR', payload: message })
     }
-  }
+  }, [])
 
   useEffect(() => {
     void fetchProducts()
-  }, [])
+  }, [fetchProducts])
 
   return (
     <ProductContext.Provider value={{ ...state, refetch: fetchProducts }}>

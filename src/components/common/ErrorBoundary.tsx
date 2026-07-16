@@ -1,17 +1,12 @@
 import { Component, type ErrorInfo, type ReactNode } from 'react'
 
-interface ErrorBoundaryProps {
-  children: ReactNode
-}
+type Props = { children: ReactNode }
+type State = { hasError: boolean }
 
-interface ErrorBoundaryState {
-  hasError: boolean
-}
+class ErrorBoundary extends Component<Props, State> {
+  state: State = { hasError: false }
 
-class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
-  state: ErrorBoundaryState = { hasError: false }
-
-  static getDerivedStateFromError(): ErrorBoundaryState {
+  static getDerivedStateFromError(): State {
     return { hasError: true }
   }
 
@@ -22,8 +17,21 @@ class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
   render() {
     if (this.state.hasError) {
       return (
-        <div className="rounded-lg border border-dashed border-red-400 bg-red-50 px-6 py-8 text-center text-sm font-medium text-red-600">
-          ErrorBoundary
+        <div
+          role="alert"
+          className="mx-auto max-w-lg px-4 py-16 text-center"
+        >
+          <h1 className="text-xl font-bold text-gray-900">Something went wrong</h1>
+          <p className="mt-2 text-sm text-gray-600">
+            An unexpected error occurred. Refresh the page to try again.
+          </p>
+          <button
+            type="button"
+            onClick={() => window.location.reload()}
+            className="mt-6 inline-flex min-h-11 items-center rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-white hover:bg-indigo-700"
+          >
+            Refresh page
+          </button>
         </div>
       )
     }

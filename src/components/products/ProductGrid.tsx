@@ -1,3 +1,4 @@
+import { memo } from 'react'
 import { PackageOpen } from 'lucide-react'
 import type { Product } from '../../types/product'
 import ProductCard from './ProductCard'
@@ -8,7 +9,7 @@ type ProductGridProps = {
   loading: boolean
 }
 
-export default function ProductGrid({ products, loading }: ProductGridProps) {
+function ProductGrid({ products, loading }: ProductGridProps) {
   if (loading) {
     return (
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
@@ -37,3 +38,5 @@ export default function ProductGrid({ products, loading }: ProductGridProps) {
     </div>
   )
 }
+
+export default memo(ProductGrid)

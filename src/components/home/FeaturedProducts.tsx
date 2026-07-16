@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { useProductContext } from '../../hooks/useProductContext'
 import ProductCard from '../products/ProductCard'
 import ProductCardSkeleton from '../products/ProductCardSkeleton'
+import ErrorMessage from '../common/ErrorMessage'
 
 function pickFeatured<T>(items: T[], count: number): T[] {
   if (items.length <= count) return [...items]
@@ -16,19 +17,18 @@ function pickFeatured<T>(items: T[], count: number): T[] {
 
 export default function FeaturedProducts() {
   const { products, loading, error, refetch } = useProductContext()
-
   const featured = useMemo(() => pickFeatured(products, 4), [products])
 
   return (
     <section className="border-t border-gray-200 bg-white">
       <div className="mx-auto max-w-6xl px-4 py-16 md:px-6 md:py-20">
-        <div className="mb-8 flex items-end justify-between gap-4">
+        <div className="mb-8 flex flex-wrap items-end justify-between gap-4">
           <h2 className="text-2xl font-bold tracking-tight text-gray-900 md:text-3xl">
             Featured Products
           </h2>
           <Link
             to="/products"
-            className="shrink-0 text-sm font-medium text-primary hover:text-indigo-700"
+            className="inline-flex min-h-11 items-center text-sm font-medium text-primary hover:text-indigo-700"
           >
             View All
           </Link>
@@ -43,16 +43,7 @@ export default function FeaturedProducts() {
         )}
 
         {!loading && error && (
-          <div className="rounded-xl border border-red-200 bg-red-50 px-6 py-10 text-center">
-            <p className="text-sm text-red-700">{error}</p>
-            <button
-              type="button"
-              onClick={() => void refetch()}
-              className="mt-4 rounded-lg bg-primary px-4 py-2 text-sm font-medium text-white hover:bg-indigo-700"
-            >
-              Retry
-            </button>
-          </div>
+          <ErrorMessage message={error} onRetry={() => void refetch()} />
         )}
 
         {!loading && !error && (

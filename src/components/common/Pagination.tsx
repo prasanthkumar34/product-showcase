@@ -1,3 +1,4 @@
+import { memo } from 'react'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 
 type PaginationProps = {
@@ -22,7 +23,7 @@ function getVisiblePages(current: number, total: number): Array<number | 'ellips
   return [1, 'ellipsis', current - 1, current, current + 1, 'ellipsis', total]
 }
 
-export default function Pagination({ currentPage, totalPages, onPageChange }: PaginationProps) {
+function Pagination({ currentPage, totalPages, onPageChange }: PaginationProps) {
   if (totalPages <= 1) return null
 
   const pages = getVisiblePages(currentPage, totalPages)
@@ -34,7 +35,7 @@ export default function Pagination({ currentPage, totalPages, onPageChange }: Pa
         onClick={() => onPageChange(currentPage - 1)}
         disabled={currentPage <= 1}
         aria-label="Previous page"
-        className="inline-flex h-9 w-9 items-center justify-center rounded-md border border-gray-200 bg-white text-gray-700 hover:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-40"
+        className="inline-flex h-11 w-11 items-center justify-center rounded-md border border-gray-200 bg-white text-gray-700 hover:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-40"
       >
         <ChevronLeft size={18} aria-hidden="true" />
       </button>
@@ -56,7 +57,7 @@ export default function Pagination({ currentPage, totalPages, onPageChange }: Pa
             aria-current={page === currentPage ? 'page' : undefined}
             aria-label={`Page ${page}`}
             className={[
-              'inline-flex h-9 min-w-9 items-center justify-center rounded-md px-2 text-sm font-medium',
+              'inline-flex h-11 min-w-11 items-center justify-center rounded-md px-2 text-sm font-medium',
               page === currentPage
                 ? 'bg-primary text-white'
                 : 'border border-gray-200 bg-white text-gray-700 hover:bg-gray-50',
@@ -72,10 +73,12 @@ export default function Pagination({ currentPage, totalPages, onPageChange }: Pa
         onClick={() => onPageChange(currentPage + 1)}
         disabled={currentPage >= totalPages}
         aria-label="Next page"
-        className="inline-flex h-9 w-9 items-center justify-center rounded-md border border-gray-200 bg-white text-gray-700 hover:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-40"
+        className="inline-flex h-11 w-11 items-center justify-center rounded-md border border-gray-200 bg-white text-gray-700 hover:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-40"
       >
         <ChevronRight size={18} aria-hidden="true" />
       </button>
     </nav>
   )
 }
+
+export default memo(Pagination)

@@ -6,7 +6,7 @@ import logo from '../../assets/logo.svg'
 
 const linkClass = ({ isActive }: { isActive: boolean }) =>
   [
-    'rounded-md px-3 py-2 text-sm font-medium transition-colors',
+    'min-h-11 rounded-md px-3 py-2 text-sm font-medium transition-colors inline-flex items-center',
     isActive ? 'bg-primary/10 text-primary' : 'text-gray-700 hover:bg-gray-100 hover:text-gray-900',
   ].join(' ')
 
@@ -15,10 +15,14 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-gray-200/80 bg-white/95 backdrop-blur-sm">
-      <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:px-6">
-        <Link to="/" className="flex items-center gap-2.5 text-gray-900" onClick={() => setOpen(false)}>
-          <img src={logo} alt="" width={32} height={32} className="h-8 w-8" />
-          <span className="text-base font-semibold tracking-tight">{APP_NAME}</span>
+      <nav className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3 md:px-6" aria-label="Main">
+        <Link
+          to="/"
+          className="flex min-h-11 min-w-0 items-center gap-2.5 text-gray-900"
+          onClick={() => setOpen(false)}
+        >
+          <img src={logo} alt={`${APP_NAME} logo`} width={32} height={32} className="h-8 w-8 shrink-0" />
+          <span className="truncate text-base font-semibold tracking-tight">{APP_NAME}</span>
         </Link>
 
         <div className="hidden items-center gap-1 md:flex">
@@ -32,9 +36,10 @@ export default function Navbar() {
 
         <button
           type="button"
-          className="inline-flex items-center justify-center rounded-md p-2 text-gray-700 hover:bg-gray-100 md:hidden"
+          className="inline-flex h-11 w-11 items-center justify-center rounded-md text-gray-700 hover:bg-gray-100 md:hidden"
           aria-label={open ? 'Close menu' : 'Open menu'}
           aria-expanded={open}
+          aria-controls="mobile-nav"
           onClick={() => setOpen((prev) => !prev)}
         >
           {open ? <X size={22} aria-hidden="true" /> : <Menu size={22} aria-hidden="true" />}
@@ -42,7 +47,7 @@ export default function Navbar() {
       </nav>
 
       {open && (
-        <div className="border-t border-gray-100 px-4 py-3 md:hidden">
+        <div id="mobile-nav" className="border-t border-gray-100 px-4 py-3 md:hidden">
           <div className="flex flex-col gap-1">
             <NavLink to="/" end className={linkClass} onClick={() => setOpen(false)}>
               Home

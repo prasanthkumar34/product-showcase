@@ -11,7 +11,13 @@ export default function Footer() {
       <div className="mx-auto grid max-w-6xl gap-8 px-4 py-10 md:grid-cols-[1.2fr_1fr_1fr] md:px-6">
         <div>
           <div className="flex items-center gap-2.5">
-            <img src={logo} alt="" width={28} height={28} className="h-7 w-7" />
+            <img
+              src={logo}
+              alt={`${APP_NAME} logo`}
+              width={28}
+              height={28}
+              className="h-7 w-7"
+            />
             <span className="font-semibold text-gray-900">{APP_NAME}</span>
           </div>
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-gray-600">
@@ -23,22 +29,25 @@ export default function Footer() {
           <p className="text-sm font-semibold text-gray-900">Quick links</p>
           <ul className="mt-3 space-y-2 text-sm">
             <li>
-              <Link to="/" className="text-gray-600 hover:text-primary">
+              <Link to="/" className="inline-flex min-h-11 items-center text-gray-600 hover:text-primary">
                 Home
               </Link>
             </li>
             <li>
-              <Link to="/products" className="text-gray-600 hover:text-primary">
+              <Link to="/products" className="inline-flex min-h-11 items-center text-gray-600 hover:text-primary">
                 Products
               </Link>
             </li>
             <li>
-              <a href="#about" className="text-gray-600 hover:text-primary">
+              <a href="#about" className="inline-flex min-h-11 items-center text-gray-600 hover:text-primary">
                 About
               </a>
             </li>
             <li>
-              <a href="mailto:hello@productshowcase.example" className="text-gray-600 hover:text-primary">
+              <a
+                href="mailto:hello@productshowcase.example"
+                className="inline-flex min-h-11 items-center text-gray-600 hover:text-primary"
+              >
                 Contact
               </a>
             </li>
@@ -47,12 +56,12 @@ export default function Footer() {
 
         <div>
           <p className="text-sm font-semibold text-gray-900">Connect</p>
-          <div className="mt-3 flex items-center gap-3">
+          <div className="mt-3 flex items-center gap-2">
             <a
               href="https://github.com"
               target="_blank"
               rel="noreferrer"
-              className="rounded-md p-2 text-gray-600 hover:bg-gray-100 hover:text-primary"
+              className="inline-flex h-11 w-11 items-center justify-center rounded-md text-gray-600 hover:bg-gray-100 hover:text-primary"
               aria-label="GitHub"
             >
               <Code2 size={18} aria-hidden="true" />
@@ -61,14 +70,14 @@ export default function Footer() {
               href="https://linkedin.com"
               target="_blank"
               rel="noreferrer"
-              className="rounded-md p-2 text-gray-600 hover:bg-gray-100 hover:text-primary"
+              className="inline-flex h-11 w-11 items-center justify-center rounded-md text-gray-600 hover:bg-gray-100 hover:text-primary"
               aria-label="LinkedIn"
             >
               <Briefcase size={18} aria-hidden="true" />
             </a>
             <a
               href="mailto:hello@productshowcase.example"
-              className="rounded-md p-2 text-gray-600 hover:bg-gray-100 hover:text-primary"
+              className="inline-flex h-11 w-11 items-center justify-center rounded-md text-gray-600 hover:bg-gray-100 hover:text-primary"
               aria-label="Email"
             >
               <Mail size={18} aria-hidden="true" />
